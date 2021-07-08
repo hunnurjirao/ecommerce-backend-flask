@@ -1,10 +1,10 @@
 # ecommerce-backend-flask
 
-### Introduction
+## Introduction
 
 Flask is a web framework. This means flask provides you with tools, libraries and technologies that allow you to build a web application. This web application can be some web pages, a blog, a wiki or go as big as a web-based calendar application or a commercial website.
 
-### Installation
+## Installation
 
 Create a project folder and a flask folder within:
 
@@ -24,7 +24,7 @@ Within the activated environment, use the following command to install Flask:
 pip install Flask
 ````
 
-### How to run
+## How to run
 
 ````
 git clone https://github.com/hunnurjirao/ecommerce-backend-flask.git
@@ -40,5 +40,5 @@ flask run
 ````
 
 
-### Resources
+## Resources
 https://flask.palletsprojects.com/en/2.0.x/quickstart/
