@@ -6,7 +6,7 @@ Flask is a web framework. This means flask provides you with tools, libraries an
 
 ### Installation
 
-Create a project folder and a venv folder within:
+Create a project folder and a flask folder within:
 
 ````
 mkdir flask
