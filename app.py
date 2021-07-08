@@ -48,6 +48,10 @@ app.config["JWT_SECRET_KEY"] = "this-is-secret-key"
 #     user = json.loads(user)
 #     return jsonify(user), 201
 
+@app.route('/testpage')
+def testpage():
+    return jsonify(message='all good!')
+
 
 @app.route("/userRegister", methods=['POST', 'GET'])
 def userRegister():
