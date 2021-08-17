@@ -23,7 +23,7 @@ jwt = JWTManager(app)
 CORS(app)
 
 
-app.config["MONGO_URI"] = "mongodb+srv://hunnurjirao:rajahunnur000@cluster0.ubnum.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+app.config["MONGO_URI"] = "mongodb+srv://hunnurjirao:*************@cluster0.ubnum.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
 app.secret_key = 'super secret key'
